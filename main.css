@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-container{
+  background-image: url(Pictures/mountain.webp);
+  background-position: center;
+  height: 700px;
+}
+
+
+.sub-container{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sublogotext{
+  color: #4BF6F6;
+}
+
+.dWord{
+  color: #405BBB;
+}
+
+.logoText{
+  color: #333;
+  display: inline;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  padding: 0 40px 0 20px;
+  color: #333;
+}
+
+.mainText{
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.mainText h1{
+  font-size: 70px;
+  font-weight:500;
+  padding: 15px;
+  color: #333;
+}
+
+.mainText p{
+  font-size: 20px;
+  color: #333;
+  margin: auto;
+  padding: 30px;
+  width: 50%;
+  line-height: 2;
+}
+
+.btn1{
+  text-decoration: none;
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5%;
+
+}
+
+.btn1:hover{
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+}
+
+.secondPage{
+  text-align: center;
+}
+
+.second-eachPartInfo{
+  display: inline-block;
+  margin: 50px;
+  padding: 10px;
+}
+
+.second-eachPartInfo img{
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+}
+
+.second-eachPartInfo h3{
+  width: 75%;
+  margin: auto;
+  font-weight: 500;
+}
+
+.second-mainText{
+  margin: 80px;
+}
+
+.secondLine{
+  border: dotted #4BF6F6 6px;
+  border-bottom: none;
+  width: 6%;
+  margin: 70px auto;
+}
+
+.second-mainText p{
+  font-size: 18px;
+  margin: 20px;
+}
+
+
+.second-mainText h1{
+  font-size: 60px;
+  width: 75%;
+  font-weight: 500;
+  margin: auto;
+}
+
+.third-subInfo{
+  width: 40%;
+  background-color:#fafafa;
+  margin: 20px auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.third-subInfo img{
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  transition: 2s ease;
+  cursor: pointer;
+}
+
+.third-subInfo img:hover{
+  transform: scale(1.5);
+  border-radius: 5%;
+}
+
+.third-eachPartInfo{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.third-mainText{
+  text-align: center;
+  margin: 100px;
+  padding: 40px;
+}
+
+.third-mainText h1{
+  margin: 20px;
+  font-size: 60px;
+}
+
+.third-mainText p{
+  margin: 30px;
+  font-size: 20px;
+}
+
+.third-subInfo h1{
+  padding: 20px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.third-subInfo p{
+  padding: 5px;
+  line-height: 2;
+  margin-bottom: 15px;
+}
+
+.third-subInfo a{
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 17px;
+}
+
+.third-subInfo a:hover{
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.fourPage{
+  background-image: url(Pictures/FourPagePhoto.jpg);
+  background-position: center;
+  width: 100%;
+  margin-top: 70px;
+  padding: 50px;
+}
+
+.subfour-info{
+  text-align: center;
+  padding: 100px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: #fafafa;
+  border-radius: 15px;
+}
+
+.four-mainText{
+  font-size: 30px;
+  margin: 20px;
+}
+
+.four-inPartInfo a{
+  margin: 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 5%;
+  font-size: 20px;
+}
+
+.four-inPartInfo a:hover{
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+}
+
+.infoText{
+  margin: 20px;
+  width: 28%;
+  padding: 15px;
+  font-size: 20px;
+  outline: none;
+}
+
+.infoNumber{
+  width: 28%;
+  margin: 20px;
+  padding: 15px;
+  font-size: 20px;
+  outline: none;
+}
+
+.four-inPartInfo{
+  width: 100%;
+}
+
+.checkBoxinfo{
+  margin-top: 20px;
+}
+
+.infoTextInput{
+  padding-left: 10px;
+}
+
+.partofInfo{
+  text-decoration: underline;
+}
+
+.fivePage{
+  margin: 90px;
+}
+
+.five-mainText p{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.five-mainText h1{
+  font-size: 50px;
+  padding: 10px;
+}
+
+.five-paragText{
+  background-color: #fafafa;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+iframe{
+  width: 80%;
+  height: 400px;
+}
+
+.sixPage{
+  background-image: url(Pictures/ContactPage.jpg);
+  background-position: top;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.mapPage{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.six-mainText{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.ContactInfo1 h1{
+  font-size: 30px;
+  padding: 10px;
+}
+
+.ContactInfo1 p{
+  font-size: 22px;
+  padding: 10px;
+}
+
+.ContactInfo1 h4{
+  padding: 10px;
+  font-size: 18px;
+}
+
+.ContactInfo2 h1{
+  font-size: 30px;
+  padding: 10px;
+}
+
+.ContactInfo2 p{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.inputInfo{
+  padding: 10px;
+}
+
+.inputInfo input{
+  margin: 20px;
+  margin-left: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.inputInfo button{
+  padding: 10px;
+  font-size: 15px;
+  background-color: #333;
+  color: #fff;
+}
+
+.inputInfo button:hover{
+  background-color: #fff;
+  color: #333;
+  font-weight: 800;
+}
+
+.footerPage{
+  text-align: center;
+  padding: 40px;
+  background-color: #333;
+  color: #fff;
+  font-size: 25px;
+}
+
+.socialLink a{
+  padding: 20px;
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.footerPage p{
+  padding: 20px;
+}
